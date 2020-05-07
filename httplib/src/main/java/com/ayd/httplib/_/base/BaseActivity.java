@@ -3,12 +3,13 @@ package com.ayd.httplib._.base;
 import android.app.Activity;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.view.Window;
 
 import com.blankj.utilcode.util.ToastUtils;
 import com.trello.rxlifecycle2.LifecycleTransformer;
 import com.trello.rxlifecycle2.components.support.RxAppCompatActivity;
+
+import io.reactivex.annotations.Nullable;
 
 
 /**
