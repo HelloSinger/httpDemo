@@ -1,8 +1,8 @@
-package com.ayd.httplib._.net;
+package com.ayd.httplib.wrap.net;
 
 
 
-import com.ayd.httplib._.model.BookModel;
+import com.ayd.httplib.wrap.model.BookModel;
 
 import io.reactivex.Observable;
 import retrofit2.http.GET;

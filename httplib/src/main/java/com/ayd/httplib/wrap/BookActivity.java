@@ -1,9 +1,9 @@
-package com.ayd.httplib._;
+package com.ayd.httplib.wrap;
 
-import com.ayd.httplib._.base.BaseActivity;
-import com.ayd.httplib._.base.BaseContract;
-import com.ayd.httplib._.model.BookModel;
-import com.ayd.httplib._.view.BookContract;
+import com.ayd.httplib.wrap.base.BaseActivity;
+import com.ayd.httplib.wrap.base.BaseContract;
+import com.ayd.httplib.wrap.model.BookModel;
+import com.ayd.httplib.wrap.view.BookContract;
 
 /**
  * 文件描述

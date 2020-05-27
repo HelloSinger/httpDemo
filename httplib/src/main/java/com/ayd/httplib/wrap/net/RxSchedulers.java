@@ -1,10 +1,9 @@
-package com.ayd.httplib._.net;
+package com.ayd.httplib.wrap.net;
 
 import io.reactivex.Observable;
 import io.reactivex.ObservableSource;
 import io.reactivex.ObservableTransformer;
 import io.reactivex.android.schedulers.AndroidSchedulers;
-import io.reactivex.internal.operators.observable.ObservableTimeInterval;
 import io.reactivex.schedulers.Schedulers;
 
 /**

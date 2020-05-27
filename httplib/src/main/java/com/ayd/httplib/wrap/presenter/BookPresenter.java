@@ -1,18 +1,16 @@
-package com.ayd.httplib._.presenter;
+package com.ayd.httplib.wrap.presenter;
 
 import android.annotation.SuppressLint;
 
-import com.ayd.httplib._.base.BasePresenter;
-import com.ayd.httplib._.contact.Contact;
-import com.ayd.httplib._.model.BookModel;
-import com.ayd.httplib._.net.ApiService;
-import com.ayd.httplib._.net.RetrofitHelper;
-import com.ayd.httplib._.net.RxSchedulers;
-import com.ayd.httplib._.view.BookContract;
+import com.ayd.httplib.wrap.base.BasePresenter;
+import com.ayd.httplib.wrap.contact.Contact;
+import com.ayd.httplib.wrap.model.BookModel;
+import com.ayd.httplib.wrap.net.ApiService;
+import com.ayd.httplib.wrap.net.RetrofitHelper;
+import com.ayd.httplib.wrap.net.RxSchedulers;
+import com.ayd.httplib.wrap.view.BookContract;
 
-import io.reactivex.ObservableTransformer;
 import io.reactivex.functions.Consumer;
-import io.reactivex.functions.Predicate;
 
 /**
  * 文件描述
@@ -33,7 +31,7 @@ public class BookPresenter extends BasePresenter<BookContract.View> implements B
                 .subscribe(new Consumer<BookModel>() {
                     @Override
                     public void accept(BookModel bookModel) throws Exception {
-
+                        mView.setBook(bookModel);
                     }
                 }, new Consumer<Throwable>() {
                     @Override

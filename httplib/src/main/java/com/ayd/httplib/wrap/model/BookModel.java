@@ -1,4 +1,4 @@
-package com.ayd.httplib._.model;
+package com.ayd.httplib.wrap.model;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.ayd.httplib._.base;
+package com.ayd.httplib.wrap.base;
 
 /**
  * 基类Presenter

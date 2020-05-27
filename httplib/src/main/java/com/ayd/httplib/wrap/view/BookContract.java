@@ -1,7 +1,7 @@
-package com.ayd.httplib._.view;
+package com.ayd.httplib.wrap.view;
 
-import com.ayd.httplib._.base.BaseContract;
-import com.ayd.httplib._.model.BookModel;
+import com.ayd.httplib.wrap.base.BaseContract;
+import com.ayd.httplib.wrap.model.BookModel;
 
 /**
  * 文件描述

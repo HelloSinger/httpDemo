@@ -1,9 +1,11 @@
-package com.ayd.httplib._.base;
+package com.ayd.httplib.wrap.base;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.Window;
+
 
 import com.blankj.utilcode.util.ToastUtils;
 import com.trello.rxlifecycle2.LifecycleTransformer;
@@ -22,6 +24,7 @@ public abstract class BaseActivity<P extends BaseContract.BasePresenter> extends
 //    private Unbinder mUnBinder;
 //    private ProgressDialog mDialog;
 
+    @SuppressLint("SourceLockedOrientationActivity")
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
